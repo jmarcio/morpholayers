@@ -1,0 +1,33 @@
+
+
+[project]
+name = "morpholayers"
+version = "0.0.1"
+
+authors = [
+  { name="Jose-Marcio Martins da Cruz", email="jose-marcio.martins@minesparis.psl.eu" },
+]
+
+description = "Morphological layers for Tensorflow"
+
+readme = "README.md"
+
+requires-python = ">=3.8"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    'tensorflow>=2.0.0',
+    'numpy>=1.15.1',
+    'scipy>=1.4.1',
+    'scikit-image >= 0.15',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+
