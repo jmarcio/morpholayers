@@ -21,8 +21,8 @@ classifiers = [
 ]
 
 dependencies = [
-    'tensorflow>=2.8.0',
-    'numpy>=1.15.1',
+    'tensorflow>=2.0.0',
+    'numpy<=1.19.9',
     'scipy>=1.4.1',
     'scikit-image >= 0.15',
 ]
