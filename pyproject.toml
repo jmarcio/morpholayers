@@ -6,6 +6,7 @@ version = "0.1.0"
 
 authors = [
   { name="Santiago Velasco-Forero", email="Santiago.Velasco@minesparis.psl.eu" },
+  { name="Jose-Marcio Martins da Cruz", email="Jose-Marcio.Martins@minesparis.psl.eu" },
 ]
 
 description = "Morphological layers for Tensorflow"

@@ -5,8 +5,7 @@
 Morphological Layers for Keras/Tensorflow2
 The goal of morpholayers is to make the interactions between [mathematical morphology](https://en.wikipedia.org/wiki/Mathematical_morphology) and [deep learning](https://en.wikipedia.org/wiki/Deep_learning) accessible for everyone.
 
-
->!git clone https://github.com/Jacobiano/morpholayers.git
+## Citing
 
  If you find this code useful in your research, please consider citing:
 
@@ -27,6 +26,38 @@ The goal of morpholayers is to make the interactions between [mathematical morph
     pages = {23-44},
     year = {2022},
     }
+
+## Installing
+
+### Source code
+
+Morpholayers source code can be found at :
+
+        https://github.com/Jacobiano/morpholayers
+
+To have local access to it, just clone it :
+
+        git clone https://github.com/Jacobiano/morpholayers.git
+
+### Anaconda package 
+
+To install it at some anaconda environnment, just type :
+
+    conda install -c jacobian morpholayers
+
+Notice that `morpholayers` depends on `tensorflow` and `scikit-image` (among others). If you don't have these packages installed in your environnment, they will be installed for you. If you need a different version of them, you must install them before installing morpholayers.
+
+### Local install with pip
+
+Just clone and install it :
+
+        git clone https://github.com/Jacobiano/morpholayers.git
+        cd morpholayers
+        pip install .
+
+
+
+## Examples
 
 Several examples of this library are available at:
 [Examples](http://www.cmm.mines-paristech.fr/~velasco/morpholayers/)
